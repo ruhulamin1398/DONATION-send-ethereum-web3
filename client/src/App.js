@@ -1,3 +1,5 @@
+ 
+
 
 import { Navbar, Welcome, Footer, Services, Transactions } from './components';
 
@@ -15,6 +17,7 @@ function App() {
       <Services />
       <Transactions />
       <Footer />
+    
     </div>
 
 
@@ -22,3 +25,4 @@ function App() {
 }
 
 export default App
+
