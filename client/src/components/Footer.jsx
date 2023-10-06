@@ -13,10 +13,10 @@ const Footer = () => (
 
 
       <div className="flex flex-1 justify-evenly items-center flex-wrap sm:mt-0 mt-5 w-full">
-        <p className="text-white text-base text-center mx-2 cursor-pointer">Home</p>
-        <p className="text-white text-base text-center mx-2 cursor-pointer">Donate</p>
-        <p className="text-white text-base text-center mx-2 cursor-pointer">Services</p>
-        <p className="text-white text-base text-center mx-2 cursor-pointer">Latest Donations</p>
+        <a href="#" className="text-white text-base text-center mx-2 cursor-pointer">Home</a>
+        <a href="#" className="text-white text-base text-center mx-2 cursor-pointer">Donate</a>
+        <a href="#services" className="text-white text-base text-center mx-2 cursor-pointer">Services</a>
+        <a href="#donations" className="text-white text-base text-center mx-2 cursor-pointer">Latest Donations</a>
       </div>
     </div>
 

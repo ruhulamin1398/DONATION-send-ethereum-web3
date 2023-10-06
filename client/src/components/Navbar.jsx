@@ -4,21 +4,34 @@ import { AiOutlineClose } from "react-icons/ai";
 
 import logo from "../../images/logo.png";
 
-const NavBarItem = ({ title, classprops }) => (
-  <li className={`mx-4 cursor-pointer ${classprops}`}>{title}</li>
+const NavBarItem = ({ title, classprops,menuLink }) => (
+  <li className={`mx-4 cursor-pointer ${classprops}`}> <a href={menuLink}>  {title} </a></li>
 );
 
 const Navbar = () => {
   const [toggleMenu, setToggleMenu] = React.useState(false);
 
+
+  const menuItems = {
+    Home: "#",
+    Donate: "#",
+    Services: "#services",
+    "Latest Donations": "#donations",
+  };
+  const menuArray = Object.entries(menuItems);
+
+
+
   return (
     <nav className="w-full flex md:justify-center justify-between items-center p-4">
       <div className="md:flex-[0.5] flex-initial justify-center items-center">
-        <img src={logo} alt="logo" className=" cursor-pointer" width="250px" />
+       <a href="#">  <img src={logo} alt="logo" className=" cursor-pointer" width="250px" /></a>
       </div>
       <ul className="text-white md:flex hidden list-none flex-row justify-between items-center flex-initial">
-        {["Home", "Donate", "Services", "Latest Donations"].map((item, index) => (
-          <NavBarItem key={item + index} title={item} />
+        {menuArray.map(([key,value], index) => (
+        
+       
+          <NavBarItem key={key + index} title={key} menuLink={value} />
         ))}
         <li className="bg-[#2952e3] py-2 px-7 mx-4 rounded-full cursor-pointer hover:bg-[#2546bd]">
           Login
@@ -37,9 +50,9 @@ const Navbar = () => {
             flex flex-col justify-start items-end rounded-md blue-glassmorphism text-white animate-slide-in"
           >
             <li className="text-xl w-full my-2"><AiOutlineClose onClick={() => setToggleMenu(false)} /></li>
-            {["Market", "Exchange", "Tutorials", "Wallets"].map(
-              (item, index) => <NavBarItem key={item + index} title={item} classprops="my-2 text-lg" />,
-            )}
+            {menuArray.map(([key,value], index) => (
+        <NavBarItem key={key + index} title={key} menuLink={value} />
+      ))}
           </ul>
         )}
       </div>
