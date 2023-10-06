@@ -36,7 +36,7 @@ const Services = () => (
       <ServiceCard
           color="bg-[#8945F8]"
           title="Give Monthly"
-          icon={<BiSearchAlt fontSize={21} className="text-white" />}
+          icon={<RiHeart2Fill fontSize={21} className="text-white" />}
           subtitle="oin our community of monthly givers who make an impact for kids all over the globe.
           "
         />
@@ -46,7 +46,7 @@ const Services = () => (
         <ServiceCard
           color="bg-[#2952E3]"
           title="Sponsor a Child"
-          icon={<BsShieldFillCheck fontSize={21} className="text-white" />}
+          icon={<RiHeart2Fill fontSize={21} className="text-white" />}
           subtitle="Support a special child whose life you'll help transform for good."
         />
 
