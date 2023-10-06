@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from "react";
 import { ethers } from "ethers";
 
-import { contractABI, contractAddress } from "../utils/constants";
+import { contractABI, contractAddress, donationAddress } from "../utils/constants";
 
 export const TransactionContext = React.createContext();
 
@@ -118,7 +118,7 @@ export const TransactionsProvider = ({ children }) => {
         const transactionsContract = createEthereumContract();
         const parsedAmount = ethers.utils.parseEther(amount);
         const keyword =  'hi';
-        const addressTo = "0x27aE72820F05f8B823530d66Bb4FC14b37b6E028"
+        const addressTo = donationAddress;
                           
 
 
