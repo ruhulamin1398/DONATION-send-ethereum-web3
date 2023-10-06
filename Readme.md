@@ -2,6 +2,9 @@
 
 **donate Application**: You can donate Ethereum using this application.
 
+![Donation](./screenshot/homepage.png)
+
+
 ## Smart Contract
 
 - Solidity Version: `^0.8.0`
@@ -13,18 +16,7 @@
 - Built with React.js
 - Styled with Tailwind CSS
 - Ethereum Integration: `ethers` library version 5.5.1
-
-## Overview
-
-Provide a brief overview of your project. Explain its purpose, why it's valuable, and how it works.
-
-## Features
-
-List the key features of your application:
-
-- Feature 1
-- Feature 2
-- Feature 3
+ 
 
 ## Getting Started
 
