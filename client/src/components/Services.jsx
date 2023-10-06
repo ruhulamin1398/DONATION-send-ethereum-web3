@@ -32,19 +32,24 @@ const Services = () => (
       </div>
 
       <div className="flex-1 flex flex-col justify-start items-start">
-        <ServiceCard
-          color="bg-[#2952E3]"
-          title="Sponsor a Child"
-          icon={<BsShieldFillCheck fontSize={21} className="text-white" />}
-          subtitle="Support a special child whose life you'll help transform for good."
-        />
-        <ServiceCard
+
+      <ServiceCard
           color="bg-[#8945F8]"
           title="Give Monthly"
           icon={<BiSearchAlt fontSize={21} className="text-white" />}
           subtitle="oin our community of monthly givers who make an impact for kids all over the globe.
           "
         />
+
+
+        
+        <ServiceCard
+          color="bg-[#2952E3]"
+          title="Sponsor a Child"
+          icon={<BsShieldFillCheck fontSize={21} className="text-white" />}
+          subtitle="Support a special child whose life you'll help transform for good."
+        />
+
         <ServiceCard
           color="bg-[#F84550]"
           title="Send Real Gifts"
