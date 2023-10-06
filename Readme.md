@@ -61,15 +61,4 @@ If you'd like to contribute to this project, please follow these guidelines:
 
 This project is licensed under the MIT License - see the LICENSE file for details.
 
-# Acknowledgments
-
-Mention any external libraries, frameworks, or tools that you used or give credit to any contributors or resources that helped you during the development of this project.
-
-
-<hr>
-
-
-Feel free to customize this template to provide more specific details about your project. Good luck with your "DONATION Send Ethereum Web3" project!
-
-Copy and paste this template into a new .md file in your GitHub repository, and then customize it with the specific details of your project.
 
