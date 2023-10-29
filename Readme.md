@@ -1,6 +1,8 @@
 # DONATION Send Ethereum Web3
 
-**donate Application**: You can donate Ethereum using this application.
+**donate Application**: 
+
+This application enables Ethereum donations through a smart contract deployed on the Sepolia test net. It's built using React.js with a sleek Tailwind CSS design, and it seamlessly integrates Ethereum transactions using the ethers library. Donate with ease and transparency.
 
  
 # Video
