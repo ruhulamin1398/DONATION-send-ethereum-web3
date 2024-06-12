@@ -15,9 +15,8 @@ This application enables Ethereum donations through a smart contract deployed on
 
 ## Watch the Project Overview Video
 
-[![Blockchain Drive Overview](https://img.youtube.com/vi/o9oqNeTxKJQ/0.jpg)](https://www.youtube.com/watch?v=o9oqNeTxKJQ)
 
-
+<iframe width="1530" height="619" src="https://www.youtube.com/embed/HMnTJ3aHRcw" title="Blockcahin donation Projects | send ethereum | etherjs | reactjs" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 
 # Video
