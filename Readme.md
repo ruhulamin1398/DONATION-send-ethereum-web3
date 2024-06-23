@@ -5,7 +5,7 @@ This application enables Ethereum donations through a smart contract deployed on
 
 
 
- **Project Link:** [http://3.82.97.134:5555/](http://3.82.97.134:5555/)
+ **Project Link:** [https://donate-eth.ruhul.info/](https://donate-eth.ruhul.info/)
 
  
 
